@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.users{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.user{
+    padding: 1rem;
+    background-color: lightskyblue;
+}
+
+.btn--del{
+    color:white;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
